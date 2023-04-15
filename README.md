@@ -1,4 +1,6 @@
-###### Update the PKG_VERSION and PKG_SOURCE_VERSION
+###### Update the PKG_VERSION and PKG_SOURCE_VERSION from
+https://github.com/3proxy/3proxy
+
 Compile 3proxy with [openwrt-ci.yml](https://github.com/KFERMercer/OpenWrt-CI/blob/master/openwrt-ci.yml)
 ===
 Add the following line above [Space cleanup](https://github.com/KFERMercer/OpenWrt-CI/blob/master/openwrt-ci.yml#L38)
