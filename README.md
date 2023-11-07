@@ -5,7 +5,7 @@ Compile 3proxy with [openwrt-ci.yml](https://github.com/KFERMercer/OpenWrt-CI/bl
 ===
 Add the following line above [Space cleanup](https://github.com/KFERMercer/OpenWrt-CI/blob/master/openwrt-ci.yml#L38)
 ```bash
-- name: Clone 3proxy
+- name: Git Clone
         run: |
           git clone https://github.com/khrozelfist/3proxy-openwrt feeds/packages/net/3proxy
 ```
